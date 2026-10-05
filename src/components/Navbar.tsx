@@ -36,15 +36,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               Dubai Transport Commercial Fleet 24/7 Active
             </span>
           </div>
-          <div className="flex items-center gap-4 text-slate-300">
-            <a
-              href="/dubai-transport.zip"
-              download="dubai-transport.zip"
-              className="px-2.5 py-0.5 rounded bg-orange-500 hover:bg-orange-600 text-white font-bold text-[11px] transition-colors"
-              title="Download Full Project Source Code (.ZIP)"
-            >
-              Download Code (.ZIP)
-            </a>
+          <div className="flex items-center gap-5 text-slate-300">
             <a
               href="tel:03273172804"
               className="flex items-center gap-1.5 hover:text-amber-400 transition-colors"

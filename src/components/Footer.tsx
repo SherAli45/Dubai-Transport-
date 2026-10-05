@@ -143,18 +143,9 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3">
           <p>© {new Date().getFullYear()} Dubai Transport. All rights reserved.</p>
           <div className="flex items-center gap-3">
-            <a
-              href="/dubai-transport.zip"
-              download="dubai-transport.zip"
-              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-orange-500/20 text-orange-400 hover:bg-orange-500 hover:text-white font-bold transition-all"
-              title="Download Full Project Source Code ZIP"
-            >
-              <span>Download Code (.ZIP)</span>
-            </a>
-            <span className="text-slate-700">|</span>
             <button
               onClick={onOpenQuote}
-              className="text-slate-400 hover:text-orange-400 font-medium"
+              className="text-slate-400 hover:text-orange-400 font-medium cursor-pointer"
             >
               Get a Quote
             </button>
