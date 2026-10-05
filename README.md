@@ -1,11 +1,22 @@
-<div align="center">
+# Dubai Transport
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+> Commercial Fleet & Road Logistics Services across Dubai & UAE.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **10 Commercial Fleet Vehicles**: Trucks, trailers, vans, box trucks, pickups, and carriers.
+- **Cargo-to-Vehicle Matcher**: Smart vehicle recommendation based on cargo requirements.
+- **Instant Booking**: Multi-step quote request with direct WhatsApp & call integration.
+- **All-Dubai Coverage**: Serving all industrial hubs, freezones, and commercial districts.
+- **Admin Dashboard**: Manage quotes, fleet inventory, and customer inquiries.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Quick Start
+```bash
+npm install
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Contact
+- **WhatsApp**: 03273172804
+- **Email**: s38454672@gmail.com
+- **Location**: Dubai, United Arab Emirates

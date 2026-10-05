@@ -1,0 +1,6 @@
+{
+  "name": "Dubai Transport & Logistics Services",
+  "description": "Professional transportation and commercial fleet services across Dubai. Trucks, vans, pickups, and goods transport solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

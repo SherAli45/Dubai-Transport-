@@ -1,0 +1,299 @@
+{
+  "vehicles": [
+    {
+      "id": "v-small-truck",
+      "vehicle_name": "Small Truck",
+      "vehicle_type": "truck",
+      "short_description": "Compact commercial truck for city dispatches and medium cargo loads.",
+      "capacity": "1–3 Ton",
+      "suitable_for": "Commercial goods, 2-4 pallets, retail stock",
+      "image_url": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "4.2m x 2.1m x 2.2m",
+      "payload_capacity": "3,000 kg",
+      "active": true,
+      "display_order": 1
+    },
+    {
+      "id": "v-medium-truck",
+      "vehicle_name": "Medium Truck",
+      "vehicle_type": "truck",
+      "short_description": "Medium-duty commercial truck for warehouse and industrial dispatches.",
+      "capacity": "5–7 Ton",
+      "suitable_for": "Industrial supplies, warehouse transfers, 6-8 pallets",
+      "image_url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "6.5m x 2.4m x 2.4m",
+      "payload_capacity": "7,000 kg",
+      "active": true,
+      "display_order": 2
+    },
+    {
+      "id": "v-large-truck",
+      "vehicle_name": "Large Truck",
+      "vehicle_type": "truck",
+      "short_description": "Heavy commercial carrier for high-capacity industrial cargo and bulk freight.",
+      "capacity": "10–20 Ton",
+      "suitable_for": "Heavy industrial shipments, container cargo, bulk orders",
+      "image_url": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "9.0m x 2.5m x 2.6m",
+      "payload_capacity": "18,000 kg",
+      "active": true,
+      "display_order": 3
+    },
+    {
+      "id": "v-trailer-truck",
+      "vehicle_name": "Trailer Truck",
+      "vehicle_type": "flatbed",
+      "short_description": "Multi-axle commercial trailer for heavy load and container transport.",
+      "capacity": "Heavy Load / 25–40 Ton",
+      "suitable_for": "Port containers, heavy equipment, steel and oversized cargo",
+      "image_url": "https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "12.5m x 2.5m trailer deck",
+      "payload_capacity": "35,000 kg",
+      "active": true,
+      "display_order": 4
+    },
+    {
+      "id": "v-flatbed-truck",
+      "vehicle_name": "Flatbed Truck",
+      "vehicle_type": "flatbed",
+      "short_description": "Open deck flatbed truck for special cargo, equipment, and crane loading.",
+      "capacity": "Special Cargo / Up to 15 Ton",
+      "suitable_for": "Machinery, building materials, pipes, scaffolding",
+      "image_url": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "8.5m x 2.5m flatbed",
+      "payload_capacity": "15,000 kg",
+      "active": true,
+      "display_order": 5
+    },
+    {
+      "id": "v-refrigerated-truck",
+      "vehicle_name": "Refrigerated Truck",
+      "vehicle_type": "refrigerated",
+      "short_description": "Insulated chiller & freezer truck maintaining temperature control.",
+      "capacity": "Temperature Controlled (3–5 Ton)",
+      "suitable_for": "Perishables, foodstuffs, pharmaceuticals, temperature-sensitive goods",
+      "image_url": "https://images.unsplash.com/photo-1616432043562-3671ea2e5242?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "4.8m x 2.1m x 2.1m insulated",
+      "payload_capacity": "4,000 kg",
+      "active": true,
+      "display_order": 6
+    },
+    {
+      "id": "v-box-truck",
+      "vehicle_name": "Box Truck",
+      "vehicle_type": "box_truck",
+      "short_description": "Enclosed weatherproof cargo body box truck with hydraulic liftgate.",
+      "capacity": "Enclosed Body / 3–5 Ton",
+      "suitable_for": "Electronics, furniture, retail boxes, weather-protected shipments",
+      "image_url": "https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "5.2m x 2.2m x 2.3m",
+      "payload_capacity": "4,500 kg",
+      "active": true,
+      "display_order": 7
+    },
+    {
+      "id": "v-cargo-van",
+      "vehicle_name": "Cargo Van",
+      "vehicle_type": "van",
+      "short_description": "High-roof commercial delivery van for urban access and rapid dispatch.",
+      "capacity": "Small / Medium (1.5 Ton)",
+      "suitable_for": "Express dispatches, cartons, electronics, sensitive urban deliveries",
+      "image_url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "3.4m x 1.7m x 1.6m",
+      "payload_capacity": "1,500 kg",
+      "active": true,
+      "display_order": 8
+    },
+    {
+      "id": "v-pickup-1ton",
+      "vehicle_name": "1-Ton Pickup",
+      "vehicle_type": "pickup",
+      "short_description": "Agile utility commercial pickup for rapid single-point dispatches.",
+      "capacity": "1 Ton",
+      "suitable_for": "Light building materials, store errands, rapid urban deliveries",
+      "image_url": "https://images.unsplash.com/photo-1559297434-fae8a1916a79?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "2.5m x 1.6m cargo bed",
+      "payload_capacity": "1,000 kg",
+      "active": true,
+      "display_order": 9
+    },
+    {
+      "id": "v-recovery-carrier",
+      "vehicle_name": "Vehicle Transport Carrier",
+      "vehicle_type": "flatbed",
+      "short_description": "Hydraulic commercial vehicle recovery and car transport carrier truck.",
+      "capacity": "Vehicle Carrier / 5 Ton",
+      "suitable_for": "Sedans, SUVs, luxury cars, commercial vehicle transfers",
+      "image_url": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80",
+      "availability_status": "available",
+      "dimensions": "6.0m x 2.3m hydraulic deck",
+      "payload_capacity": "5,000 kg",
+      "active": true,
+      "display_order": 10
+    }
+  ],
+  "services": [
+    {
+      "id": "goods-transport",
+      "title": "Goods Transportation",
+      "short_description": "Commercial road transportation using modern fleet vehicles across all Dubai zones.",
+      "long_description": "Professional transportation services for commercial and business freight with prompt dispatch.",
+      "icon": "Package",
+      "image_url": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "display_order": 1
+    },
+    {
+      "id": "van-transport",
+      "title": "Van Transportation",
+      "short_description": "Enclosed high-roof commercial cargo vans for fast urban transit across Dubai.",
+      "long_description": "High-roof delivery vans ideal for city navigation, basement clearance, and rapid dispatch.",
+      "icon": "Truck",
+      "image_url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "display_order": 2
+    },
+    {
+      "id": "truck-transport",
+      "title": "Truck Transportation",
+      "short_description": "Commercial heavy and medium-duty trucks for high-tonnage road transport.",
+      "long_description": "Certified commercial transport trucks operating 24/7 across all Dubai industrial hubs.",
+      "icon": "Container",
+      "image_url": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "display_order": 3
+    },
+    {
+      "id": "pickup-transport",
+      "title": "Pickup Transportation",
+      "short_description": "1-Ton and 2-Ton commercial utility pickups for agile point-to-point dispatch.",
+      "long_description": "Quick urban transport pickups available for immediate point-to-point deliveries in Dubai.",
+      "icon": "Car",
+      "image_url": "https://images.unsplash.com/photo-1559297434-fae8a1916a79?auto=format&fit=crop&w=800&q=80",
+      "active": true,
+      "display_order": 4
+    }
+  ],
+  "areas": [
+    {
+      "id": "downtown-dubai",
+      "name": "Downtown Dubai (Burj Khalifa)",
+      "district": "Central Commercial",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "dubai-marina",
+      "name": "Dubai Marina & JBR",
+      "district": "Coastal & Waterfront",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "business-bay",
+      "name": "Business Bay",
+      "district": "Corporate Hub",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "palm-jumeirah",
+      "name": "Palm Jumeirah",
+      "district": "Waterfront & Island",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "al-quoz",
+      "name": "Al Quoz Industrial Hub",
+      "district": "Logistics Corridor",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "jebel-ali",
+      "name": "Jebel Ali Freezone (JAFZA)",
+      "district": "Port & Sea Freight",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "deira",
+      "name": "Deira & Dubai Creek",
+      "district": "Old Dubai & Trade",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "dip",
+      "name": "Dubai Investments Park (DIP)",
+      "district": "Distribution Hub",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "dubai-south",
+      "name": "Dubai South (DWC Airport)",
+      "district": "Aviation Logistics",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "sharjah-border",
+      "name": "Sharjah & Northern Emirates",
+      "district": "Inter-Emirate Transit",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "abu-dhabi-highway",
+      "name": "Abu Dhabi Transit Highway",
+      "district": "Inter-Emirate Transit",
+      "popular": true,
+      "active": true
+    }
+  ],
+  "quotes": [
+    {
+      "id": "req-101",
+      "reference_number": "TR-48201",
+      "customer_name": "Customer Booking",
+      "phone": "03273172804",
+      "whatsapp": "03273172804",
+      "email": "s38454672@gmail.com",
+      "service_id": "goods-transport",
+      "vehicle_id": "v-medium-truck",
+      "pickup_area": "Al Quoz Industrial Hub",
+      "dropoff_area": "Jebel Ali Freezone (JAFZA)",
+      "goods_type": "General Goods",
+      "load_size": "Medium",
+      "preferred_date": "2026-10-06",
+      "preferred_time": "10:00 AM - 12:00 PM",
+      "additional_notes": "Commercial transport booking.",
+      "status": "New",
+      "admin_notes": "Pending driver availability check for tomorrow morning.",
+      "quoted_amount": 550,
+      "created_at": "2026-10-05T14:42:30.231Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-01",
+      "name": "Customer Inquiry",
+      "phone": "03273172804",
+      "email": "s38454672@gmail.com",
+      "message": "Hello Dubai Transport, please provide transport quotation for commercial delivery.",
+      "status": "Unread",
+      "created_at": "2026-10-05T12:42:30.232Z"
+    }
+  ]
+}
